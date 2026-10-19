@@ -1,0 +1,394 @@
+[
+  {
+    "title": "Even or Odd",
+    "topic": "Variables and Conditions",
+    "difficulty": "Easy",
+    "statement": "Write a program that takes an integer as input and prints whether it is even or odd.",
+    "example_input": "7",
+    "example_output": "Odd"
+  },
+  {
+    "title": "Leap Year Checker",
+    "topic": "Variables and Conditions",
+    "difficulty": "Easy",
+    "statement": "Given a year, determine if it is a leap year. A year is a leap year if it is divisible by 4, except for century years which must be divisible by 400.",
+    "example_input": "2024",
+    "example_output": "Leap Year"
+  },
+  {
+    "title": "Grade Calculator",
+    "topic": "Variables and Conditions",
+    "difficulty": "Easy",
+    "statement": "Write a program that accepts a student's score (0-100) and prints the grade: A (90-100), B (80-89), C (70-79), D (60-69), F (below 60).",
+    "example_input": "85",
+    "example_output": "B"
+  },
+  {
+    "title": "Simple Calculator",
+    "topic": "Variables and Conditions",
+    "difficulty": "Medium",
+    "statement": "Build a calculator that takes two numbers and an operator (+, -, *, /) and prints the result. Handle division by zero gracefully.",
+    "example_input": "10 + 5",
+    "example_output": "15"
+  },
+  {
+    "title": "Multiplication Table",
+    "topic": "Loops",
+    "difficulty": "Easy",
+    "statement": "Print the multiplication table of a given number from 1 to 10.",
+    "example_input": "5",
+    "example_output": "5 x 1 = 5\n5 x 2 = 10\n...\n5 x 10 = 50"
+  },
+  {
+    "title": "Sum of N Natural Numbers",
+    "topic": "Loops",
+    "difficulty": "Easy",
+    "statement": "Write a program to calculate the sum of the first N natural numbers using a loop.",
+    "example_input": "5",
+    "example_output": "15"
+  },
+  {
+    "title": "Star Pattern — Right Triangle",
+    "topic": "Loops",
+    "difficulty": "Medium",
+    "statement": "Print a right-angled triangle pattern of stars with N rows.\nRow 1 has 1 star, row 2 has 2 stars, and so on.",
+    "example_input": "4",
+    "example_output": "*\n**\n***\n****"
+  },
+  {
+    "title": "FizzBuzz",
+    "topic": "Loops",
+    "difficulty": "Easy",
+    "statement": "Print numbers from 1 to N. For multiples of 3 print 'Fizz', for multiples of 5 print 'Buzz', and for multiples of both print 'FizzBuzz'.",
+    "example_input": "15",
+    "example_output": "1\n2\nFizz\n4\nBuzz\nFizz\n7\n8\nFizz\nBuzz\n11\nFizz\n13\n14\nFizzBuzz"
+  },
+  {
+    "title": "Count Vowels",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "statement": "Write a program that counts the number of vowels (a, e, i, o, u) in a given string. Consider both uppercase and lowercase.",
+    "example_input": "Hello World",
+    "example_output": "3"
+  },
+  {
+    "title": "Reverse a String",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "statement": "Write a program that takes a string and prints it in reverse order.",
+    "example_input": "hello",
+    "example_output": "olleh"
+  },
+  {
+    "title": "Palindrome Check",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "statement": "Check if a given string is a palindrome (reads the same forwards and backwards). Ignore case and spaces.",
+    "example_input": "Race Car",
+    "example_output": "True (palindrome)"
+  },
+  {
+    "title": "Count Words in a String",
+    "topic": "Strings",
+    "difficulty": "Easy",
+    "statement": "Count the number of words in a given sentence. Words are separated by spaces.",
+    "example_input": "Hello World How Are You",
+    "example_output": "5"
+  },
+  {
+    "title": "Anagram Checker",
+    "topic": "Strings",
+    "difficulty": "Medium",
+    "statement": "Given two strings, check if they are anagrams of each other (contain the same characters in a different order). Ignore case and spaces.",
+    "example_input": "listen, silent",
+    "example_output": "True (anagrams)"
+  },
+  {
+    "title": "Find Maximum in a List",
+    "topic": "Lists and Arrays",
+    "difficulty": "Easy",
+    "statement": "Write a program that finds the maximum element in a list of integers without using the built-in max() function.",
+    "example_input": "[3, 7, 2, 9, 4]",
+    "example_output": "9"
+  },
+  {
+    "title": "Remove Duplicates",
+    "topic": "Lists and Arrays",
+    "difficulty": "Medium",
+    "statement": "Given a list of integers, remove all duplicate elements and return the list with unique elements only, preserving original order.",
+    "example_input": "[1, 2, 3, 2, 4, 1, 5]",
+    "example_output": "[1, 2, 3, 4, 5]"
+  },
+  {
+    "title": "Rotate a List",
+    "topic": "Lists and Arrays",
+    "difficulty": "Medium",
+    "statement": "Rotate a list to the right by K positions. The last K elements should move to the front.",
+    "example_input": "list = [1, 2, 3, 4, 5], K = 2",
+    "example_output": "[4, 5, 1, 2, 3]"
+  },
+  {
+    "title": "Two Sum",
+    "topic": "Lists and Arrays",
+    "difficulty": "Medium",
+    "statement": "Given a list of integers and a target sum, find two numbers in the list that add up to the target. Return their indices.",
+    "example_input": "list = [2, 7, 11, 15], target = 9",
+    "example_output": "[0, 1]  (because 2 + 7 = 9)"
+  },
+  {
+    "title": "Merge Two Sorted Lists",
+    "topic": "Lists and Arrays",
+    "difficulty": "Medium",
+    "statement": "Given two sorted lists, merge them into a single sorted list without using any built-in sort function.",
+    "example_input": "[1, 3, 5] and [2, 4, 6]",
+    "example_output": "[1, 2, 3, 4, 5, 6]"
+  },
+  {
+    "title": "Word Frequency Counter",
+    "topic": "Dictionaries and Hash Maps",
+    "difficulty": "Easy",
+    "statement": "Given a sentence, count the frequency of each word and display the result as key-value pairs. Ignore case.",
+    "example_input": "hello world hello",
+    "example_output": "{'hello': 2, 'world': 1}"
+  },
+  {
+    "title": "Character Frequency",
+    "topic": "Dictionaries and Hash Maps",
+    "difficulty": "Easy",
+    "statement": "Count the frequency of each character in a string (ignore spaces) and return the result as a dictionary.",
+    "example_input": "banana",
+    "example_output": "{'b': 1, 'a': 3, 'n': 2}"
+  },
+  {
+    "title": "Group Anagrams",
+    "topic": "Dictionaries and Hash Maps",
+    "difficulty": "Hard",
+    "statement": "Given a list of strings, group anagrams together. Two strings are anagrams if they contain the same characters in any order.",
+    "example_input": "[\"eat\", \"tea\", \"tan\", \"ate\", \"nat\", \"bat\"]",
+    "example_output": "[[\"eat\", \"tea\", \"ate\"], [\"tan\", \"nat\"], [\"bat\"]]"
+  },
+  {
+    "title": "Temperature Converter Function",
+    "topic": "Functions",
+    "difficulty": "Easy",
+    "statement": "Write a function that converts temperature between Celsius and Fahrenheit. The function should accept the temperature value and the unit to convert to.",
+    "example_input": "convert(100, 'F')",
+    "example_output": "212.0"
+  },
+  {
+    "title": "Recursive Factorial",
+    "topic": "Functions",
+    "difficulty": "Medium",
+    "statement": "Write a recursive function to calculate the factorial of a non-negative integer N. Handle the base case (0! = 1).",
+    "example_input": "5",
+    "example_output": "120"
+  },
+  {
+    "title": "Power Function",
+    "topic": "Functions",
+    "difficulty": "Medium",
+    "statement": "Implement a function power(base, exponent) that calculates base raised to the exponent without using the ** operator or pow(). Handle negative exponents.",
+    "example_input": "power(2, 10)",
+    "example_output": "1024"
+  },
+  {
+    "title": "Prime Number Checker",
+    "topic": "Basic Mathematics",
+    "difficulty": "Easy",
+    "statement": "Write a function that checks if a given number is a prime number. Return True if prime, False otherwise.",
+    "example_input": "17",
+    "example_output": "True"
+  },
+  {
+    "title": "GCD of Two Numbers",
+    "topic": "Basic Mathematics",
+    "difficulty": "Easy",
+    "statement": "Find the Greatest Common Divisor (GCD) of two positive integers using the Euclidean algorithm.",
+    "example_input": "48, 18",
+    "example_output": "6"
+  },
+  {
+    "title": "Fibonacci Sequence",
+    "topic": "Basic Mathematics",
+    "difficulty": "Medium",
+    "statement": "Generate the first N numbers of the Fibonacci sequence. The sequence starts with 0 and 1, and each subsequent number is the sum of the previous two.",
+    "example_input": "8",
+    "example_output": "[0, 1, 1, 2, 3, 5, 8, 13]"
+  },
+  {
+    "title": "Sum of Digits",
+    "topic": "Basic Mathematics",
+    "difficulty": "Easy",
+    "statement": "Write a program that calculates the sum of digits of a given positive integer.",
+    "example_input": "12345",
+    "example_output": "15"
+  },
+  {
+    "title": "Armstrong Number",
+    "topic": "Basic Mathematics",
+    "difficulty": "Medium",
+    "statement": "Check if a number is an Armstrong number. An Armstrong number of N digits is one where the sum of each digit raised to the power N equals the number itself.",
+    "example_input": "153",
+    "example_output": "True (1³ + 5³ + 3³ = 153)"
+  },
+  {
+    "title": "Linear Search",
+    "topic": "Searching and Sorting",
+    "difficulty": "Easy",
+    "statement": "Implement linear search: given a list and a target value, return the index of the target if found, or -1 if not found.",
+    "example_input": "list = [10, 20, 30, 40, 50], target = 30",
+    "example_output": "2"
+  },
+  {
+    "title": "Binary Search",
+    "topic": "Searching and Sorting",
+    "difficulty": "Medium",
+    "statement": "Implement binary search on a sorted list. Return the index of the target element, or -1 if not found. The list is guaranteed to be sorted in ascending order.",
+    "example_input": "list = [2, 5, 8, 12, 16, 23, 38, 56], target = 23",
+    "example_output": "5"
+  },
+  {
+    "title": "Bubble Sort",
+    "topic": "Searching and Sorting",
+    "difficulty": "Medium",
+    "statement": "Implement the bubble sort algorithm to sort a list of integers in ascending order. Show or return the sorted list.",
+    "example_input": "[64, 34, 25, 12, 22, 11, 90]",
+    "example_output": "[11, 12, 22, 25, 34, 64, 90]"
+  },
+  {
+    "title": "Selection Sort",
+    "topic": "Searching and Sorting",
+    "difficulty": "Medium",
+    "statement": "Implement selection sort: repeatedly find the minimum element from the unsorted part and place it at the beginning.",
+    "example_input": "[29, 10, 14, 37, 13]",
+    "example_output": "[10, 13, 14, 29, 37]"
+  },
+  {
+    "title": "Insertion Sort",
+    "topic": "Searching and Sorting",
+    "difficulty": "Medium",
+    "statement": "Implement insertion sort: build the sorted list one element at a time by inserting each element into its correct position.",
+    "example_input": "[12, 11, 13, 5, 6]",
+    "example_output": "[5, 6, 11, 12, 13]"
+  },
+  {
+    "title": "Count Sort Frequency",
+    "topic": "Searching and Sorting",
+    "difficulty": "Hard",
+    "statement": "Given a list of integers in the range 0 to K, implement counting sort. Count the occurrences of each integer and reconstruct the sorted list.",
+    "example_input": "[4, 2, 2, 8, 3, 3, 1]",
+    "example_output": "[1, 2, 2, 3, 3, 4, 8]"
+  },
+  {
+    "title": "Two Sum",
+    "topic": "Lists and Arrays",
+    "difficulty": "Easy",
+    "statement": "Given an array of integers and a target sum, return the indices of the two numbers such that they add up to the target. Assume each input has exactly one solution.",
+    "example_input": "nums = [2, 7, 11, 15], target = 9",
+    "example_output": "[0, 1]"
+  },
+  {
+    "title": "Merge Sorted Arrays",
+    "topic": "Lists and Arrays",
+    "difficulty": "Medium",
+    "statement": "Given two sorted integer arrays, merge them into a single sorted array without using built-in sort functions.",
+    "example_input": "arr1 = [1, 3, 5], arr2 = [2, 4, 6]",
+    "example_output": "[1, 2, 3, 4, 5, 6]"
+  },
+  {
+    "title": "Find Missing Number",
+    "topic": "Lists and Arrays",
+    "difficulty": "Easy",
+    "statement": "Given an array containing n distinct numbers in the range [0, n], find the one number in the range that is missing from the array.",
+    "example_input": "[3, 0, 1]",
+    "example_output": "2"
+  },
+  {
+    "title": "Valid Parentheses",
+    "topic": "Stacks and Queues",
+    "difficulty": "Easy",
+    "statement": "Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. Open brackets must be closed by the same type in the correct order.",
+    "example_input": "\"([{}])\"",
+    "example_output": "True"
+  },
+  {
+    "title": "Reverse String Using Stack",
+    "topic": "Stacks and Queues",
+    "difficulty": "Easy",
+    "statement": "Use a stack data structure to reverse an input string. Do not use built-in string reverse slicing.",
+    "example_input": "\"education\"",
+    "example_output": "\"noitacude\""
+  },
+  {
+    "title": "Implement Queue using Two Stacks",
+    "topic": "Stacks and Queues",
+    "difficulty": "Medium",
+    "statement": "Implement a first-in-first-out (FIFO) queue using only two standard stacks. Support push, pop, and peek operations.",
+    "example_input": "push(1), push(2), peek(), pop()",
+    "example_output": "peek: 1, pop: 1"
+  },
+  {
+    "title": "Next Greater Element",
+    "topic": "Stacks and Queues",
+    "difficulty": "Medium",
+    "statement": "Given an array of integers, find the next greater element for every element. If no greater element exists to its right, output -1.",
+    "example_input": "[4, 5, 2, 25]",
+    "example_output": "[5, 25, 25, -1]"
+  },
+  {
+    "title": "Evaluate Reverse Polish Notation",
+    "topic": "Stacks and Queues",
+    "difficulty": "Hard",
+    "statement": "Evaluate the value of an arithmetic expression in Reverse Polish Notation (postfix). Valid operators are +, -, *, /.",
+    "example_input": "[\"2\", \"1\", \"+\", \"3\", \"*\"]",
+    "example_output": "9"
+  },
+  {
+    "title": "Power Function (x^n)",
+    "topic": "Recursion and Trees",
+    "difficulty": "Easy",
+    "statement": "Implement a recursive function to calculate x raised to the power n (where n is a non-negative integer) in O(log n) time.",
+    "example_input": "x = 2, n = 10",
+    "example_output": "1024"
+  },
+  {
+    "title": "Tower of Hanoi",
+    "topic": "Recursion and Trees",
+    "difficulty": "Medium",
+    "statement": "Write a recursive function to print the moves required to transfer N disks from rod A to rod C using helper rod B, following standard Hanoi rules.",
+    "example_input": "N = 3",
+    "example_output": "Move disk 1 from A to C\nMove disk 2 from A to B\nMove disk 1 from C to B\nMove disk 3 from A to C..."
+  },
+  {
+    "title": "Maximum Depth of Binary Tree",
+    "topic": "Recursion and Trees",
+    "difficulty": "Medium",
+    "statement": "Given the root of a binary tree, find its maximum depth (the number of nodes along the longest path from the root down to the farthest leaf node).",
+    "example_input": "Tree: [3, 9, 20, null, null, 15, 7]",
+    "example_output": "3"
+  },
+  {
+    "title": "Invert Binary Tree",
+    "topic": "Recursion and Trees",
+    "difficulty": "Medium",
+    "statement": "Given the root of a binary tree, invert the tree (swap left and right child nodes recursively) and return its root.",
+    "example_input": "Root [4, 2, 7, 1, 3, 6, 9]",
+    "example_output": "Root [4, 7, 2, 9, 6, 3, 1]"
+  },
+  {
+    "title": "Binary Tree Inorder Traversal",
+    "topic": "Recursion and Trees",
+    "difficulty": "Medium",
+    "statement": "Given the root of a binary tree, return the inorder traversal of its nodes' values (Left -> Root -> Right).",
+    "example_input": "Root: [1, null, 2, 3]",
+    "example_output": "[1, 3, 2]"
+  },
+  {
+    "title": "Lowest Common Ancestor in BST",
+    "topic": "Recursion and Trees",
+    "difficulty": "Hard",
+    "statement": "Given a Binary Search Tree (BST) and two node values, find their Lowest Common Ancestor (LCA).",
+    "example_input": "BST root = 6, p = 2, q = 8",
+    "example_output": "6"
+  }
+]

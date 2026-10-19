@@ -1,0 +1,7 @@
+# Core dependencies
+streamlit>=1.30.0
+requests>=2.31.0
+
+# Optional: MySQL persistence (app works without it)
+mysql-connector-python>=8.2.0
+
